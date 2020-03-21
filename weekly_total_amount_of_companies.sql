@@ -29,7 +29,8 @@ select company, sum(trip_total) as fifth_week_amount
 from taxi_2018.taxi_2018_fifth_week  
 group by 1)
 
-select four.company, coalesce(first_week_amount, 0), coalesce(second_week_amount, 0), coalesce(third_week_amount, 0), fourth_week_amount, coalesce(fifth_week_amount, 0)
+select four.company, coalesce(first_week_amount, 0) as first_week_amount, coalesce(second_week_amount, 0) as second_week_amount, 
+coalesce(third_week_amount, 0) as third_week_amount, fourth_week_amount, coalesce(fifth_week_amount, 0) as fifth_week_amount
 from fourth_week_total_amount  as four
 left join first_week_total_amount  as fst on(four.company=fst.company) 
 left join second_week_total_amount  as snd on (four.company=snd.company) 

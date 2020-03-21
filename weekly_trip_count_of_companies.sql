@@ -29,7 +29,8 @@ select company, count(unique_key) as fifth_week_count
 from taxi_2018.taxi_2018_fifth_week  
 group by 1)
 
-select four.company, coalesce(first_week_count, 0) , coalesce(second_week_count, 0), coalesce(third_week_count, 0), fourth_week_count, coalesce(fifth_week_count, 0)
+select four.company, coalesce(first_week_count, 0) as first_week_count , coalesce(second_week_count, 0) as second_week_count, 
+coalesce(third_week_count, 0) as third_week_count, fourth_week_count, coalesce(fifth_week_count, 0) as fifth_week_count
 from fourth_week_trip_count as four
 left join first_week_trip_count as fst on(four.company=fst.company) 
 left join second_week_trip_count as snd on (four.company=snd.company) 
