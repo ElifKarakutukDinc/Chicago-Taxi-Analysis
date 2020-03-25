@@ -1,7 +1,10 @@
 About Chicago Taxi Trip Analysis Project: 
+
 Chicago Taxi Trip Database is an open source database. You can download it from the link: https://bit.ly/3ac9f9i
 I used January 2018 taxi trips. 
+
 You can see the storyline about this project in my Tableau account: https://public.tableau.com/profile/elif.karakutuk.dinc 
+
 You can see my hypotheses and findings about the project at the below: 
 Hypothesis-1: In which region the trips are mostly occured? 
 Finding: The trips mostly occured at city center. Usually the trips drop off at the city center. Some trips occured at northwest. There may be important points of Chicago. 
