@@ -7,7 +7,7 @@ You can see the storyline about this project in my Tableau account: https://publ
 
 You can see my hypotheses and findings about the project at the below: 
 
-## Hypothesis-1: In which region the trips are mostly occured? 
+### Hypothesis-1: In which region the trips are mostly occured? 
 Finding: The trips mostly occured at city center. Usually the trips drop off at the city center. Some trips occured at northwest. There may be important points of Chicago. 
 
 ## Hypothesis-2: Is there any difference between each week? 
